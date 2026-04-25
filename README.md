@@ -8,4 +8,4 @@ First Step
 Working on the script.
 
 I am supposed to have a good storyboard and mechanics before starting coding, I do have something in my mind.
-I am working on storytelling and mechanics that are made be me, so that it has a personal essence of mine.
+I am working on storytelling and mechanics that are made by me, so that it has a personal essence of mine.
