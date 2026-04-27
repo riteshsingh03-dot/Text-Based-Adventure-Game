@@ -65,3 +65,109 @@ def end():
     time.sleep(1)
     exit()
 
+def dots():
+    time.sleep(0.35)
+    print(".",end="")
+    time.sleep(0.35)
+    print(".",end="")
+    time.sleep(0.35)
+    print(".",end="")
+    time.sleep(0.35)
+    print(".",end="")
+    time.sleep(0.35)
+
+def scene1a():
+    os.system("cls")
+
+def scene1b():
+    os.system("cls")
+
+def scene1c():
+    os.system("cls")
+
+def scene1():
+    os.system("cls")
+    print("darkness",end="")
+    dots()
+    os.system("cls")
+    time.sleep(0.85)
+    print("THUD")
+    time.sleep(0.5)
+    print("You fall from your bed...")
+    time.sleep(0.25)
+    print("You wake up and realise something",end=" ")
+    time.sleep(0.45)
+    print("\"This is not my room.\"")
+    time.sleep(0.35)
+    print("You get up and notice something")
+    time.sleep(0.35)
+    print("You are wearing a long brown coat")
+    time.sleep(0.25)
+    print("You check your pockets")
+    time.sleep()
+    dots()
+    print("You found a pen, a notebook, a badge.")
+    time.sleep(0.25)
+    print("Press e to interact with the badge")
+    choice=msvcrt.getch().decode()
+    if choice=="e":
+        os.system("cls")
+        time.sleep(0.45)
+        print("You see the badge.")
+        time.sleep(0.25)
+        print("The badge reads: Detective Mehul - Private Detective")
+    else:
+        print("You chose to ignore the badge.\n")
+    
+    print("\"What is this happening...\"\n")
+    time.sleep(0.2)
+    time.sleep("A strange voice suddenly  fills the room.\n")
+    time.sleep(0.15)
+    print("[Getting normal, are you?]")
+    time.sleep(0.35)
+    print("\"What!!\"")
+    time.sleep(0.45)
+    dots()
+    dots()
+    print("\"Is this game lagging\"\n")
+    time.sleep(0.15)
+    print("[Absolutely Not!]")
+    time.sleep(0.25)
+    print("[Come on, It was just a dramatical pause.]")
+    time.sleep(0.2)
+    print("[By the way, treat me with some respect]")
+    time.sleep(0.15)
+    print("[I am your guardian angel.]")
+    time.sleep(0.15)
+    print("\"Am I dreaming..\"")
+    time.sleep(0.15)
+    print("[Absolutely Not, You have been reincarnated as detective Mehul.]")
+    time.sleep(0.2)
+    print("\"Whatt!!, Why??")
+    time.sleep(0.15)
+    print("[You really think you have a choice]")
+    time.sleep(0.25)
+    print("\"Why don't I have one?\"")
+    time.sleep(0.25)
+    print("[Come on, Just Accept It.]\n\n")
+    time.sleep(0.25)
+    print("Chose one Option: ")
+    print("a) \"I really don't seem to have any choice.\"")
+    print("b) \"How do you even think I am gonna agree to it...\"")
+    print("c) \"As you say Sir...\"")
+    time.sleep(0.25)
+    ch1=msvcrt.getch().decode()
+    while ch1!="a" and ch1!="b" and ch1!="c":
+        print("Chose from the options(a,b,c).")
+        time.sleep(0.15)
+        ch1=msvcrt.getch().decode()
+    
+    if ch1=="a":
+        scene1a()
+    if ch1=="b":
+        scene1b()
+    if ch1=="c":
+        scene1c()
+
+    
+
