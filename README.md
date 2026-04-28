@@ -23,7 +23,15 @@ Mechanics I am thinking of adding:
 these mechanics parameter are going to be decided as per the choice of the player.
 
 Day 3
-I started by running the scene 1, and it has major time.delay issues, it had very uncomfortable.
+I started by running the scene 1, and it has major time.delay issues, it had very uncomfortable timing delays.
 So I started by working on it.
 To keep the time delay between the monologues consistent, I decided to make specefic time.sleep() functions.
 For now I have made long(), suspense(), quick(), narr(), notice()
+
+Now I am adding the game mechanics:
+1) Professionality - prof
+2) Guardian's Help - help
+
+It's parameters are gonna change as per user choices which is gonna shape the gameplay ahead.
+
+And Starting with some flattery in scene1c

@@ -3,6 +3,9 @@ import random
 import msvcrt
 import time
 
+prof = 0
+help = 1
+
 def welcome():
     os.system("cls")
     print("Welcome",end=" ")
@@ -95,6 +98,41 @@ def scene1b():
 
 def scene1c():
     os.system("cls")
+    narr()
+    print("{Oh! I don't think it's good to be rebellious here.}\n")
+    long()
+    print("{Maybe I should just play along}")
+    long()
+    print("As you say sir...")
+    long()
+    print("Excuse Me, If I unknowingly caused you any inconvenience.\n")
+    suspense()
+    print("The Guardian Angel seems impressed.")
+    global help
+    help = help+1
+    narr()
+    print("You might get his help later if you keep him impressed.\n")
+    narr()
+    print("[Uhmm..]")
+    narr()
+    print("[Uhmm..]")
+    long()
+    print("[Enough of the flattery.]")
+    long()
+    print("[So I was telling you that]")
+    quick()
+    print("..clunk..")
+    suspense()
+    print("..creak..\n")
+    narr()
+    print("A door opens behind you")
+    notice()
+    print("You look back")
+    narr()
+    print("Press any key to continue..")
+    msvcrt.getch()
+    os.system("cls")
+
 
 def scene1():
     os.system("cls")
@@ -139,7 +177,7 @@ def scene1():
     narr()
     print("[Getting normal, are you?]")
     long()
-    print("\"What!!\"")
+    print("\"What!!\"\n")
     suspense()
     dots()
     dots()
@@ -149,18 +187,18 @@ def scene1():
     print("[Absolutely Not!]")
     long()
     print("[Come on, It was just a dramatical pause.]")
-    narr()
-    print("[By the way, treat me with some respect]")
-    narr()
-    print("[I am your guardian angel.]\n")
     long()
+    print("[By the way, treat me with some respect]")
+    long()
+    print("[I am your guardian angel.]\n")
+    suspense()
     print("\"Am I dreaming..\"")
     quick()
     print("[Absolutely Not, You have been reincarnated as detective Mehul.]\n")
-    long()
+    suspense()
     print("\"Whatt!!, Why??")
     narr()
-    print("[You really think you have a choice]")
+    print("[You really think you have a choice]\n")
     quick()
     print("\"Why don't I have one?\"")
     suspense()
@@ -169,7 +207,7 @@ def scene1():
     print("Press any key to continue.")
     msvcrt.getch()
     print("Chose one Option: ")
-    print("a) \"I really don't seem to have any choice.\"")
+    print("a) \"I really don't seem to have any choice...\"")
     print("b) \"How do you even think I am gonna agree to it...\"")
     print("c) \"As you say Sir...\"")
     time.sleep(0.25)
@@ -180,11 +218,14 @@ def scene1():
         ch1=msvcrt.getch().decode()
     
     if ch1=="a":
+        long()
         scene1a()
     if ch1=="b":
+        long()
         scene1b()
     if ch1=="c":
+        long()
         scene1c()
 
-scene1()
+scene1c()
 
