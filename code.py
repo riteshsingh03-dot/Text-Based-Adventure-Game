@@ -90,11 +90,49 @@ def dots():
     print(".",end="")
     time.sleep(0.35)
 
+def scene2():
+    os.system("cls")
+
 def scene1a():
     os.system("cls")
 
 def scene1b():
     os.system("cls")
+    narr()
+    print("\"How do you even think that I am gonna agree to it.\"")
+    long()
+    print("\"Whatever it is, I don't care just give me back my normal life.\"\n")
+    suspense()
+    dots()
+    long()
+    print("\nThe guardian angel doesn't seem to like it.")
+    narr()
+    print("Try to keep him happy, he may be very helpful.")
+    long()
+    global help
+    help = help - 1
+    narr()
+    print("\n[Well...]")
+    suspense()
+    print("[You are the dumb rebellious kind of kid.]")
+    suspense()
+    print("Whatever, I am supposed to do my work here.")
+    suspense()
+    print("[What I was gonna say is that]\n")
+    narr()
+    print("..clink...")
+    long()
+    print("..clank...")
+    notice()
+    print("A door behind you opens...")
+    narr()
+    print("You look back.")
+    suspense()
+    print("Press any key to continue.")
+    msvcrt.getch()
+    os.system("cls")
+    long()
+    scene2()
 
 def scene1c():
     os.system("cls")
@@ -132,6 +170,8 @@ def scene1c():
     print("Press any key to continue..")
     msvcrt.getch()
     os.system("cls")
+    long()
+    scene2()
 
 
 def scene1():
@@ -227,5 +267,5 @@ def scene1():
         long()
         scene1c()
 
-scene1c()
+scene1b()
 

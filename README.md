@@ -35,3 +35,4 @@ Now I am adding the game mechanics:
 It's parameters are gonna change as per user choices which is gonna shape the gameplay ahead.
 
 And Starting with some flattery in scene1c
+Some rebel in scene1b
