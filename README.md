@@ -36,3 +36,4 @@ It's parameters are gonna change as per user choices which is gonna shape the ga
 
 And Starting with some flattery in scene1c
 Some rebel in scene1b
+A completely normal in scene1a

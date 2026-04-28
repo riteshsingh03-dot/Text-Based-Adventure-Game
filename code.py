@@ -95,6 +95,30 @@ def scene2():
 
 def scene1a():
     os.system("cls")
+    long()
+    print("\"I really don't have any choice right.\"")
+    suspense()
+    print("\"So, yeah here I am, you must have many things to tell me right.\"\n")
+    suspense()
+    print("[Yeah, it's good to see you have accepted your fate.]")
+    suspense()
+    print("[There's a reason you are reincarnated in this body.]")
+    suspense()
+    print("[The reason being]\n")
+    quick()
+    print("..clink..")
+    long()
+    print("..clank..\n")
+    notice()
+    print("You look behind.")
+    suspense()
+    print("The door behind you is opening.\n")
+    long()
+    print("Press any key to continue.")
+    msvcrt.getch()
+    scene2()
+    os.system("cls")
+    long()
 
 def scene1b():
     os.system("cls")
@@ -102,6 +126,8 @@ def scene1b():
     print("\"How do you even think that I am gonna agree to it.\"")
     long()
     print("\"Whatever it is, I don't care just give me back my normal life.\"\n")
+    suspense()
+    print("\"Hello!!\"\n")
     suspense()
     dots()
     long()
@@ -116,7 +142,7 @@ def scene1b():
     suspense()
     print("[You are the dumb rebellious kind of kid.]")
     suspense()
-    print("Whatever, I am supposed to do my work here.")
+    print("[Whatever, I am supposed to do my work here.]")
     suspense()
     print("[What I was gonna say is that]\n")
     narr()
@@ -128,7 +154,7 @@ def scene1b():
     narr()
     print("You look back.")
     suspense()
-    print("Press any key to continue.")
+    print("Press any key to continue.\n")
     msvcrt.getch()
     os.system("cls")
     long()
@@ -172,7 +198,6 @@ def scene1c():
     os.system("cls")
     long()
     scene2()
-
 
 def scene1():
     os.system("cls")
@@ -267,5 +292,5 @@ def scene1():
         long()
         scene1c()
 
-scene1b()
+scene1a()
 
