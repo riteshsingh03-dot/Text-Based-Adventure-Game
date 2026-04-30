@@ -90,11 +90,50 @@ def dots():
     print(".",end="")
     time.sleep(0.35)
 
+def scene3():
+    os.system("cls")
+
 def scene2a():
     os.system("cls")
+    long()
+    print("His eyes narrowed,",end=" ")
+    narr()
+    print("a faint smile,",end=" ")
+    narr()
+    print("followed by a nod.\n")
+    long()
+    print("You follow him.\n")
+    narr()
+    print("{For now I need to go on with this life.}")
+    narr()
+    print("{Lets see what lies ahead.}")
+    suspense()
+    print("Press any key to continue.")
+    msvcrt.getch()
+    scene3()
 
 def scene2b():
     os.system("cls")
+    narr()
+    print("His eyes widened briefly,",end=" ")
+    narr()
+    print("acknowledged with quiet regard.")
+    long()
+    print("Like he didn't expected this response.\n")
+    suspense()
+    print("Detective Kabeer: But sir.\n")
+    narr()
+    print("\"Okaay \"")
+    narr()
+    print("\"Let's Go.\"\n")
+    long()
+    print("You follow him.")
+    narr()
+    print("{Lets see what more lies ahead till I am stuck in this body}\n")
+    suspense()
+    print("Press any key to continue.")
+    msvcrt.getch()
+    scene3
 
 def scene2():
     os.system("cls")
@@ -346,5 +385,5 @@ def scene1():
         long()
         scene1c()
 
-scene2()
+scene2b()
 

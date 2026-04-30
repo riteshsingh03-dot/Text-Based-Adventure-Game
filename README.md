@@ -34,9 +34,15 @@ Now I am adding the game mechanics:
 
 It's parameters are gonna change as per user choices which is gonna shape the gameplay ahead.
 
+Day 4
 And Starting with some flattery in scene1c
 Some rebel in scene1b
 A completely normal in scene1a
 
+Day 5
 Started scene2 branching to scene2a and scene2b
 after scene2a and scene2b the main prologue starts...
+
+Completed scene2a and scene2b
+
+While working on this project, I surely am also learning script writing.
