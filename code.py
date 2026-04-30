@@ -3,7 +3,7 @@ import random
 import msvcrt
 import time
 
-prof = 0
+prof = 10
 help = 1
 
 def welcome():
@@ -90,8 +90,62 @@ def dots():
     print(".",end="")
     time.sleep(0.35)
 
+def scene2a():
+    os.system("cls")
+
+def scene2b():
+    os.system("cls")
+
 def scene2():
     os.system("cls")
+    notice()
+    print("Behind you,",end=" ")
+    long()
+    print("the door is opening slowly.")
+    suspense()
+    print("From the opening door comes light,",end=" ")
+    suspense()
+    print("breaking the darkness in the room.")
+    long()
+    print("Followed by a middle-aged man, queit and steady.")
+    long()
+    narr()
+    print("His eyes silently expecting you to understand something.")
+    suspense()
+    dots()
+    long()
+    print("\nDetective Kabir: Sir",end=" ")
+    long()
+    print("We got ourself a new case.",end=" ")
+    narr()
+    print("Lets Go.\n")
+    long()
+    print("{I needed a lot of answers from the guardian angel.}\n")
+    narr()
+    print("Chose your response: ")
+    print("a) Yeah, Lets GO.")
+    print("b) Whatever, we will do it later.")
+    ch=msvcrt.getch().decode()
+    while ch!="a" and ch!="b":
+        narr()
+        print("Chose a valid option(a, b)")
+        ch=msvcrt.getch().decode()
+    if ch=="a":
+        print("\"Yeah,",end=" ")
+        notice()
+        print("Lets Go.\"")
+        long()
+        scene2a()
+    if ch=="b":
+        print("\"What\"")
+        narr()
+        print("\"Whatever,",end=" ")
+        narr()
+        print("I ain't going anywhere right now.\"")
+        long()
+        global prof
+        prof = prof - 1
+        scene2b()
 
 def scene1a():
     os.system("cls")
@@ -292,5 +346,5 @@ def scene1():
         long()
         scene1c()
 
-scene1a()
+scene2()
 

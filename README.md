@@ -37,3 +37,6 @@ It's parameters are gonna change as per user choices which is gonna shape the ga
 And Starting with some flattery in scene1c
 Some rebel in scene1b
 A completely normal in scene1a
+
+Started scene2 branching to scene2a and scene2b
+after scene2a and scene2b the main prologue starts...
