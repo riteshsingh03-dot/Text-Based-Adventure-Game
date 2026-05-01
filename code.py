@@ -5,6 +5,7 @@ import time
 
 prof = 10
 help = 1
+way = 0
 
 def welcome():
     os.system("cls")
@@ -90,8 +91,82 @@ def dots():
     print(".",end="")
     time.sleep(0.35)
 
+def scene4():
+    os.system("cls")
+
+def scene3a():
+    os.system("cls")
+    narr()
+    print("You chose to sleep.")
+    narr()
+    os.system("cls")
+    dots()
+    os.system("cls")
+    dots()
+    os.system("cls")
+    long()
+    print("Detective Kabeer: Sir")
+    long()
+    print("Detective Kabeer: Sir\n")
+    quick()
+    print("You wake up with a snap.\n")
+    long()
+    print("Sir, You must be tired but we have reached our destination.\n")
+    narr()
+    print("\"Lets Go.\"\n")
+    long()
+    print("Press any key to continue.")
+    narr()
+    msvcrt.getch().decode()
+    scene4()
+
+def scene3b():
+    os.system("cls")
+    narr()
+    print("You chose to observe things around you.\n")
+    global way
+    way = 1
+    suspense()
+    print("You see the way all over.")
+    narr()
+    print("Bustling Roads.")
+    long()
+    print("Children playing with innocense, unaware of what lies ahead in their life.")
+    suspense()
+    print("The drive was ordinary, but astonishingly calm.\n")
+    suspense()
+    print("{Maybe I am still in the process of accepting what's happening with me}\n")
+    suspense()
+    print("Detective Kabeer: Sir,",end=" ")
+    narr()
+    print("We have reached.")
+    narr()
+    print("\"Yeah, Lets go.\"\n")
+    print("Press any key to continue.")
+    msvcrt.getch()
+    scene4()
+
 def scene3():
     os.system("cls")
+    long()
+    print("He takes you to his car.")
+    narr()
+    print("His car was not flashy,",end=" ")
+    narr()
+    print("A plain white sedan, simple and steady like him.\n")
+    suspense()
+    print("Chose your option: ")
+    print("a) Save your Energy and sleep.")
+    print("b) Stay Awake and observe things...")
+    ch=msvcrt.getch().decode()
+    while ch!="a" and ch!="b":
+        print("Enter a valid option(a, b)")
+        narr()
+        ch = msvcrt.getch().decode()
+    if ch=="a":
+        scene3a()
+    if ch=="b":
+        scene3b()        
 
 def scene2a():
     os.system("cls")
@@ -385,5 +460,5 @@ def scene1():
         long()
         scene1c()
 
-scene2b()
+scene3()
 

@@ -46,3 +46,8 @@ after scene2a and scene2b the main prologue starts...
 Completed scene2a and scene2b
 
 While working on this project, I surely am also learning script writing.
+
+Day 6
+Started working on Scene3, from where things actually start.
+I have also got an idea why not make a choice here directly affect the ending scenes so this is gonna be a very important choice.
+Completed Scene3 and its branches.
