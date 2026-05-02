@@ -52,3 +52,7 @@ Day 6
 I have also got an idea why not make a choice here directly affect the ending scenes so this is gonna be a very important choice.<br>
 Completed Scene3 and its branches.<br>
 Added scene4, this project is taking its time in setting the scenes, praparing script and setting up appropriate time delays.<p>
+
+Day 7
+<p>Only Added scene5<br>
+Wasn't able take out much time for this project today.<p>
