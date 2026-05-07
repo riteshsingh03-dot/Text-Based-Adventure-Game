@@ -56,3 +56,6 @@ Added scene4, this project is taking its time in setting the scenes, praparing s
 Day 7
 <p>Only Added scene5<br>
 Wasn't able take out much time for this project today.<p>
+
+Day 8
+<p>Working on Scene6<p>
