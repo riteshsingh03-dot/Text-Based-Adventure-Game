@@ -59,3 +59,8 @@ Wasn't able take out much time for this project today.<p>
 
 Day 8
 <p>Working on Scene6<p>
+
+Day 9
+<p>This project is taking a while...<br>
+I think I am gonna drop it for time being..<br>
+Reason being, I need to move on ahead to other topics.<br>

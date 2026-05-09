@@ -646,5 +646,5 @@ def scene1():
         long()
         scene1c()
 
-scene6()
+scene1()
 
